@@ -1,7 +1,5 @@
 # BackPython
 
-esto es una pruaba de un readme
-
           
 # Guía de Aprendizaje: Backend con Python
 

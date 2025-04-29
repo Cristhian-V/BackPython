@@ -1,6 +1,5 @@
 # BackPython
 
-          
 # Guía de Aprendizaje: Backend con Python
 
 ## 1. Fundamentos de Python
@@ -11,6 +10,9 @@
   - Funciones y módulos
   - Programación orientada a objetos
   - Manejo de excepciones
+- Manejo de dependencias:
+  - Uso de requirements.txt y pip-tools
+  - Alternativas modernas: Poetry, Pipenv
 
 ## 2. Bases de Datos
 - Introducción a bases de datos relacionales
@@ -41,6 +43,7 @@
 ## 4. APIs y Servicios Web
 - Conceptos de REST
 - Diseño de APIs RESTful
+- Alternativas a REST: Introducción a GraphQL (ejemplo: Graphene)
 - Autenticación y seguridad
 - Documentación de APIs (Swagger/OpenAPI)
 - Consumo de APIs externas
@@ -51,20 +54,29 @@
 - Testing:
   - Unittest
   - Pytest
+- Automatización y CI/CD:
+  - Introducción a GitHub Actions, GitLab CI, Jenkins
+  - Beneficios de automatizar pruebas y despliegues
 - Despliegue:
   - Heroku
   - Docker
   - AWS/Google Cloud/Azure
 - Caché y optimización
 - WebSockets
+- Monitorización y logging avanzado:
+  - Uso de Sentry, Prometheus, ELK Stack
 
 ## 6. Mejores Prácticas
 - Patrones de diseño
 - Clean Code
 - Principios SOLID
-- Documentación
-- Seguridad en aplicaciones web
+- Documentación:
+  - Herramientas como Sphinx o MkDocs
+- Seguridad en aplicaciones web:
+  - Prácticas para proteger contraseñas y variables sensibles (dotenv)
+  - Introducción a OWASP Top 10
 - Manejo de logs y monitoreo
+- Internacionalización y localización
 
 ## 7. Proyectos Prácticos
 1. API REST básica
@@ -92,6 +104,9 @@
 - Comprensión de HTML/CSS
 - Familiaridad con conceptos de redes y HTTP
 - Conocimientos básicos de bases de datos
+
+## Licenciamiento y aspectos legales
+- Importancia de elegir una licencia para proyectos open source
 
 Este README servirá como guía para tu viaje de aprendizaje en el desarrollo backend con Python. Recuerda que la práctica constante y la construcción de proyectos reales son fundamentales para dominar estas tecnologías.
 

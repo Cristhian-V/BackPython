@@ -1,0 +1,6 @@
+1. contesta el chat siempre en español
+2. los comentarios de los codigos que esten en español
+3. Nombres Descriptivos : Usar nombres claros para funciones y módulos.
+4. Documentación : Usar docstrings para documentar funciones y módulos.
+5. Organización de Módulos : Estructurar el código en módulos lógicos.
+6. Manejo de Excepciones : Implementar manejo de errores adecuado.

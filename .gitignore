@@ -1,0 +1,59 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.settings/
+
+# Archivos de logs y temporales
+*.log
+logs/
+temp/
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Archivos de base de datos
+*.db
+*.sqlite3
+*.sqlite
+*.sql
+
+# Archivos de configuración y secretos
+.env
+.env.local
+.env.*.local
+config.local.ini
+secrets.json
+
+# Archivos de dependencias y distribución
+dist/
+build/
+*.egg-info/
+*.egg
+pip-log.txt
+
+# Archivos de documentación
+docs/_build/
+site/
+
+# Archivos específicos del backend
+media/
+static/
+uploads/

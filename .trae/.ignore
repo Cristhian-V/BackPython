@@ -1,0 +1,38 @@
+# Archivo específico mencionado
+R.txt
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.swp
+
+# Archivos de ambiente
+.env
+.env.local
+
+# Archivos de base de datos
+*.db
+*.sqlite3
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Archivos de prueba
+.coverage
+.pytest_cache/

@@ -1,0 +1,46 @@
+Table "DAM_datosGenerales_A" {
+  "id" integer [pk, not null]
+  "nro_referencia" varchar(500)
+  "aduana_despacho" integer
+  "forma_envio" integer
+  "consolidado" boolean
+  "regimen_aduana" integer
+  "modalidad_regimen" integer
+  "modalodad_despacho" integer
+  "regimen_post_deposito" integer
+  "mod_desp_post_deposito" integer
+  "emision_parte" boolean
+  "tipo_mercancia" varchar(500)
+  "importador" integer
+  "consignatario" integer
+}
+
+Table "DIM_datosGenerales_A" {
+  "id" integer [pk, not null]
+  "nro_referencia" varchar(500)
+  "aduana_despacho" integer
+  "regimen_aduana" integer
+  "modalidad_regimen" integer
+  "modalodad_despacho" integer
+  "tratamiento_especial" integer
+  "documento_asociado" integer
+  "forma_envio" integer
+  "tipo_despacho" boolean
+  "importador" integer
+}
+
+Table "DAM_DIM_Operadores" {
+  "id" integer [pk, not null]
+  "nit" bigint
+  "razon_social" varchar(500)
+}
+
+Table "table_4" {
+  "id" integer [pk, not null]
+}
+
+Ref "DAM_datosGenerales_A_importador_fk":"DAM_DIM_Operadores"."id" < "DAM_datosGenerales_A"."importador"
+
+Ref "DAM_datosGenerales_A_consignatario_fk":"DAM_DIM_Operadores"."id" < "DAM_datosGenerales_A"."consignatario"
+
+Ref "DIM_datosGenerales_A_importador_fk":"DAM_DIM_Operadores"."id" < "DIM_datosGenerales_A"."importador"
